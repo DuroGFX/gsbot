@@ -4,7 +4,7 @@ const botconfig = require("../botconfig");
 
 module.exports.run = async (bot, message, args) => {
   let reason = args.join(" ");
-  if(!reason) return message.channel.send("Please provide a suggestion! Usage: =suggest <suggestion>")
+  if(!reason) return;
 
   let embed = new Discord.RichEmbed()
     .setTitle(`Suggestion`)
