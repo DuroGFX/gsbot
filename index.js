@@ -43,7 +43,7 @@ fs.readdir("./commands/", (err, files) => {
 
 bot.on("ready", async () => {
   console.log(`SkyClouds is online!`)
-  bot.user.setActivity("SkyClouds", {type: "PLAYING"});
+  bot.user.setActivity("=help for commands!", {type: "PLAYING"});
 })
 
 bot.on("message", async message => {
