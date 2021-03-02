@@ -4,7 +4,7 @@
   "//3": "updating this file will download and update your packages",
   "name": "GSBot",
   "version": "0.0.1",
-  "description": "Giveaway and Suggestion Discord Bot",
+  "description": "Giveaway and Suggestions Bot",
   "main": "index.js",
   "scripts": {
     "start": "node ."
